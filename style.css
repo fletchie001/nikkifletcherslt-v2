@@ -101,8 +101,8 @@ header.scrolled { box-shadow: var(--shadow); }
   flex-shrink: 0;
 }
 .logo img {
-  width: 52px;
-  height: 52px;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--border);
