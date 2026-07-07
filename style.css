@@ -584,6 +584,7 @@ section { padding: 96px 0; }
   margin-bottom: 8px;
 }
 .credential-card p { font-size: .88rem; color: var(--muted); line-height: 1.6; }
+.credential-logo { max-height: 64px; max-width: 140px; object-fit: contain; margin-bottom: 12px; }
 
 .who-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .who-item {
@@ -814,17 +815,20 @@ section { padding: 96px 0; }
   border-bottom: 1px solid rgba(226,216,236,.5);
 }
 .link-item-icon {
-  width: 36px;
-  height: 36px;
-  min-width: 36px;
-  background: var(--plum-pale);
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  background: #fff;
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1rem;
   margin-top: 2px;
+  overflow: hidden;
+  border: 1px solid var(--border);
 }
+.link-item-icon img { width: 100%; height: 100%; object-fit: contain; padding: 4px; }
 .link-item-text p { font-size: .88rem; color: var(--muted); margin-top: 2px; }
 .link-item-text a { font-weight: 500; color: var(--plum-mid); font-size: .9rem; }
 .link-item-text a:hover { text-decoration: underline; }
