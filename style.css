@@ -86,7 +86,7 @@ header.scrolled { box-shadow: var(--shadow); }
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 32px;
-  height: 76px;
+  height: 96px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -101,8 +101,8 @@ header.scrolled { box-shadow: var(--shadow); }
   flex-shrink: 0;
 }
 .logo img {
-  width: 72px;
-  height: 72px;
+  width: 88px;
+  height: 88px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--border);
