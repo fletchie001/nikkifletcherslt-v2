@@ -1,0 +1,5 @@
+name = "nikkifletcherslt-v2"
+compatibility_date = "2026-07-07"
+
+[assets]
+directory = "."
